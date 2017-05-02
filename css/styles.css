@@ -1,11 +1,44 @@
 @charset "UTF-8";
 /* CSS Document */
 
-h1{
-	font-family:Verdana, "sans-serif";
-}
+* {font-family: Helvetica, Arial,"sans-serfi";
+	}
 h2 {
-	font-family: Helvetica, Arial,"sans-serfi";
 	font-weight:200;
 	margin-top:20px;
 }
+
+tr:nth-child(even){
+	background-color:#E1E79D
+} /* can adjust rows that are colored (i.e. even, odd, every third */
+th {
+	padding:3px;
+	text-align:left;
+	border-left: 1px solid #636363;
+	}
+td {
+	padding: 3px 30px;
+	border-left:1px solid #636363;
+	border-right:1px solid #636363;
+	}
+table {
+	border-collapse:collapse;
+	border-bottom: 1px solid #636363;
+	}	
+	
+tr:nth-child(2) {	
+	border-top:1px solid #636363;
+}
+.image{
+	border:0px solid #636363;
+	vertical-align:bottom;
+}
+
+span {
+	font-weight:200;
+	font-style:italic;
+	}
+ul {
+	list-style-type:none;
+	}	
+	
