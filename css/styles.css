@@ -3,16 +3,22 @@
 
 * {font-family: Helvetica, Arial,"sans-serfi";
 	}
+h1{
+	font-size:70px;
+	clear:both;
+	}	
+/* clear adjusts location of Hydro Flask*/	
 h2 {
 	font-weight:200;
-	margin-top:20px;
+	margin-top:-40px;
+	font-size:50px;
 }
 
 tr:nth-child(even){
 	background-color:#E1E79D
 } /* can adjust rows that are colored (i.e. even, odd, every third */
 th {
-	padding:3px;
+	padding:3px 30px;
 	text-align:left;
 	border-left: 1px solid #636363;
 	}
@@ -38,7 +44,33 @@ span {
 	font-weight:200;
 	font-style:italic;
 	}
+nav{
+	background-color: #22897E;
+	width:100%;
+	height:60px;
+	}	
 ul {
 	list-style-type:none;
 	}	
+li {
+	float:left;
+	display:block;
+	width:130px;
+	line-height:60px;
+	font-size:24px;
+	padding:0 30px;
+	
+	}	
+a:link {
+		text-decoration:none;
+		color:white;
+		
+		}
+a:visited {
+		color:white;
+	}
+a:hover {
+		color: #C3F02C;
+		
+		}	
 	
