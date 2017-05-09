@@ -1,0 +1,61 @@
+Last login: Tue May  2 12:11:54 on console
+grc-italy:~ sucole$ cd Desktop/338_03_L5_Susanna
+grc-italy:338_03_L5_Susanna sucole$ git init
+Initialized empty Git repository in /Users/sucole/Desktop/338_03_L5_Susanna/.git/
+grc-italy:338_03_L5_Susanna sucole$ git add -A
+grc-italy:338_03_L5_Susanna sucole$ git commit -m "add files"
+[master (root-commit) 71b8fb3] add files
+ 8 files changed, 13 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 css/styles.css
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100644 images/logo.gif
+ create mode 100755 images/white.jpg
+ create mode 100644 index.html
+grc-italy:338_03_L5_Susanna sucole$ git remote add origin https://github.com/sucole/Lab5.git
+grc-italy:338_03_L5_Susanna sucole$ git push -u origin master
+Counting objects: 12, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (12/12), 1.17 MiB | 1.80 MiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/sucole/Lab5.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-italy:338_03_L5_Susanna sucole$ git commit -am "Added Images"
+[master 7efcda0] Added Images
+ 2 files changed, 73 insertions(+)
+grc-italy:338_03_L5_Susanna sucole$ git commit -am "Added Nav Bar"
+[master babeb32] Added Nav Bar
+ 2 files changed, 56 insertions(+), 12 deletions(-)
+grc-italy:338_03_L5_Susanna sucole$ git commit -am "Styled Nav Bar"
+[master ba0ff9d] Styled Nav Bar
+ 1 file changed, 34 insertions(+), 2 deletions(-)
+grc-italy:338_03_L5_Susanna sucole$ git log 
+commit ba0ff9d2fde5824159546f0ea1bbe4662474f77c
+Author: Susanna Cole <sucole@calpoly.edu>
+Date:   Tue May 2 14:37:12 2017 -0700
+
+    Styled Nav Bar
+
+commit babeb3232d8393abcac96c0bc228a7eca747e886
+Author: Susanna Cole <sucole@calpoly.edu>
+Date:   Tue May 2 14:08:31 2017 -0700
+
+    Added Nav Bar
+
+commit 7efcda0645eb96737a182b81a380e9296c01d17d
+Author: Susanna Cole <sucole@calpoly.edu>
+Date:   Tue May 2 13:26:20 2017 -0700
+
+    Added Images
+
+commit 71b8fb3b93ada77d04a26089053e32d6ffaac85b
+Author: Susanna Cole <sucole@calpoly.edu>
+Date:   Tue May 2 12:53:26 2017 -0700
+
+    add files
+:

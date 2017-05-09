@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*start home*/
+
 * {font-family: Helvetica, Arial,"sans-serfi";
 	}
 h1{
@@ -13,6 +15,7 @@ h2 {
 	margin-top:-40px;
 	font-size:50px;
 }
+/* margin-top adjusts line space*/
 
 tr:nth-child(even){
 	background-color:#E1E79D
@@ -73,4 +76,5 @@ a:hover {
 		color: #C3F02C;
 		
 		}	
+/*start form*/		
 	
